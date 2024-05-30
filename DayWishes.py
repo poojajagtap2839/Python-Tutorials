@@ -9,7 +9,7 @@ Myname=input("Enter your good name: ").title()
 if(hour>5 and hour<12):
     print("Hello, Good Morning ",Myname)
 elif(hour>12 and hour<17):
-    print("Hello, Good Afternoon ", name)
+    print("Hello, Good Afternoon ", ourname)
 else:
-    print("Hello, Good Evening ", name)
+    print("Hello, Good Evening ", ourname)
 
