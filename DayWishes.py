@@ -4,10 +4,10 @@ import time
 fullTime=time.strftime('%H:%M:%S')
 hour=int(time.strftime('%H'))
 print(hour)
-name=input("Enter your good name: ").title()
+Myname=input("Enter your good name: ").title()
 
 if(hour>5 and hour<12):
-    print("Hello, Good Morning ",name)
+    print("Hello, Good Morning ",Myname)
 elif(hour>12 and hour<17):
     print("Hello, Good Afternoon ", name)
 else:
